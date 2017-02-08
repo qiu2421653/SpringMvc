@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>首页</title>
+<title>News</title>
 </head>
 <body>
 	<%
-		String data = request.getAttribute("hello").toString();
+		String data = request.getAttribute("content").toString();
 		response.getWriter().write(data);
 	%>
 </body>
